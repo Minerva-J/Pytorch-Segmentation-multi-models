@@ -2,7 +2,7 @@
 
 Pytorch implementation for Semantic Segmentation with multi models for blood vessel segmentation in fundus images of DRIVE dataset.
 
-Deeplabv3, Deeplabv3_plus, PSPNet, UNet, UNet_AutoEncoder, UNet_nested, R2AttUNet, AttentionUNet, RecurrentUNet,, SEGNet, CENet, DsenseASPP, RefineNet, RDFNet
+Deeplabv3, Deeplabv3_plus, PSPNet, UNet, UNet_AutoEncoder, UNet_nested, R2AttUNet, AttentionUNet, RecurrentUNet, SEGNet, CENet, DsenseASPP, RefineNet, RDFNet
 
 # Data
 Available at https://www.isi.uu.nl/Research/Databases/DRIVE/
