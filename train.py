@@ -82,7 +82,7 @@ best_dice = 0.  # best test accuracy
 best_acc = 0.  # best test accuracy
 def main():
     ##################################################################data
-    CAMVID_PATH = Path('/home/zhaojie/zhaojie/Mixmatch/Data/dataprocess/RITE-RGB-40-True/')
+    CAMVID_PATH = Path('./Data/dataprocess/RITE-RGB-40-True/')
     transform_train = transforms.Compose([transforms.ToTensor()])
     train_joint_transformer = transforms.Compose([joint_transforms.JointRandomHorizontalFlip()])
 	#train
