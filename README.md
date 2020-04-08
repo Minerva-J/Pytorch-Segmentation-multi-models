@@ -2,13 +2,14 @@
 
 Pytorch implementation for Semantic Segmentation with multi models (Deeplabv3, Deeplabv3_plus, PSPNet, UNet, UNet_AutoEncoder, UNet_nested, R2AttUNet, AttentionUNet, RecurrentUNet,, SEGNet, CENet, DsenseASPP, RefineNet, RDFNet) for blood vessel segmentation in fundus images of DRIVE dataset.
 
-Data Available at https://www.isi.uu.nl/Research/Databases/DRIVE/
-
-##Training
+#Data
+Available at https://www.isi.uu.nl/Research/Databases/DRIVE/
+<img src="./drive.png" width=50%>
+#Training
 python train.py --model unet
 The You can modify --model to change models.
 
-##Reference:
+#Reference:
 AttentionR2Unet: Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation
 https://arxiv.org/abs/1802.06955
 
@@ -45,7 +46,7 @@ https://arxiv.org/abs/1505.04597
 Unet_nested: Unet++: A Nested U-Net Architecture for Medical Image Segmentation
 https://arxiv.org/pdf/1807.10165.pdf
 
-##Github:
+Github:
 https://github.com/Guzaiwang/CE-N
 https://github.com/ShawnBIT/UNet-family
 https://github.com/charlesCXK/PyTorch_Semantic_Segmentation
