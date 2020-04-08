@@ -12,19 +12,23 @@ Available at https://www.isi.uu.nl/Research/Databases/DRIVE/
 # Training
 
 python train.py --model unet
+
 You can modify --model to change models.
 
 # Reference:
 
 AttentionR2Unet: 
+
 Recurrent Residual Convolutional Neural Network based on U-Net (R2U-Net) for Medical Image Segmentation
 https://arxiv.org/abs/1802.06955
 
 AttentionUnet: 
+
 Attention U-Net: Learning Where to Look for the Pancreas
 https://arxiv.org/abs/1804.03999
 
 CENet: 
+
 CE-Net: Context encoder network for 2D medical image segmentation 
 https://arxiv.org/abs/1903.02740
 
